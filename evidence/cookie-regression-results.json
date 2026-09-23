@@ -1,0 +1,114 @@
+{
+  "testedAt": "2026-09-23T22:00:29.785Z",
+  "browser": "153.0.8010.53",
+  "testCount": 26,
+  "results": [
+    {
+      "name": "Reject all; accept untouched",
+      "pass": true
+    },
+    {
+      "name": "Necessary only choice",
+      "pass": true
+    },
+    {
+      "name": "French reject",
+      "pass": true
+    },
+    {
+      "name": "German reject",
+      "pass": true
+    },
+    {
+      "name": "Spanish reject",
+      "pass": true
+    },
+    {
+      "name": "Accept-only banner stays visible",
+      "pass": true
+    },
+    {
+      "name": "Unrelated reject button untouched",
+      "pass": true
+    },
+    {
+      "name": "Ambiguous consent text untouched",
+      "pass": true
+    },
+    {
+      "name": "Contradictory accessible label untouched",
+      "pass": true
+    },
+    {
+      "name": "Hidden choice untouched",
+      "pass": true
+    },
+    {
+      "name": "Disabled choice untouched",
+      "pass": true
+    },
+    {
+      "name": "External link untouched",
+      "pass": true
+    },
+    {
+      "name": "Javascript link untouched",
+      "pass": true
+    },
+    {
+      "name": "Form submission untouched",
+      "pass": true
+    },
+    {
+      "name": "Detached form target untouched",
+      "pass": true
+    },
+    {
+      "name": "Visible consent dialog",
+      "pass": true
+    },
+    {
+      "name": "Delayed banner",
+      "pass": true
+    },
+    {
+      "name": "Unresponsive button clicked only once",
+      "pass": true
+    },
+    {
+      "name": "Open shadow root",
+      "pass": true
+    },
+    {
+      "name": "Manual banner interaction takes priority",
+      "pass": true
+    },
+    {
+      "name": "Global off",
+      "pass": true
+    },
+    {
+      "name": "Site pause",
+      "pass": true
+    },
+    {
+      "name": "Site pause applies to cross-origin frames",
+      "pass": true
+    },
+    {
+      "name": "Visible cross-origin frame rejection",
+      "pass": true
+    },
+    {
+      "name": "Disabling on an already-open page",
+      "pass": true
+    },
+    {
+      "name": "Packaged popup loads and saves global toggle",
+      "pass": true
+    }
+  ],
+  "pageErrors": [],
+  "unexpectedExternalRequests": [],
+  "scope": "Actual unpacked extension in an isolated browser profile with synthetic pages. Not a live-web coverage study."
+}

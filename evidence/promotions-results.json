@@ -1,0 +1,131 @@
+{
+  "browser": "153.0.8010.53",
+  "extensionVersion": "1.1.0",
+  "sourceSHA256": {
+    "content.js": "d1f1f45170c18fccf57863ec80fdcca6a7881d3b3eea75ef7c9a6e24e6dc6c4e",
+    "promotions.js": "9e04709d7df4336f93d5cca69616e6c270f98350ef49fc74ce5889cb0edd3d4f",
+    "background.js": "57bc63b7c012fc9a5236c215071f8f77b200f5486355203680a0e1ba05044448",
+    "popup.js": "6e91720e0df11da75f6d164c1a84c8e991c7e9de4a24559f2563310d9048ca45",
+    "manifest.json": "6d3d31770fe01f14ed4ceadefac305bcb83834263f12bb101a6a58d8e3a0cfe2"
+  },
+  "at": "2026-09-23T22:00:39.332Z",
+  "testCount": 29,
+  "results": [
+    {
+      "name": "Newsletter hidden without close, click, or submit handlers",
+      "pass": true
+    },
+    {
+      "name": "Dismissible subscription promotion hidden",
+      "pass": true
+    },
+    {
+      "name": "Inline signup stays visible",
+      "pass": true
+    },
+    {
+      "name": "Unknown dialog remains visible",
+      "pass": true
+    },
+    {
+      "name": "Cookie consent remains visible",
+      "pass": true
+    },
+    {
+      "name": "Login lookalike remains visible",
+      "pass": true
+    },
+    {
+      "name": "Password form remains visible",
+      "pass": true
+    },
+    {
+      "name": "Payment field remains visible",
+      "pass": true
+    },
+    {
+      "name": "Paywall remains visible",
+      "pass": true
+    },
+    {
+      "name": "Account cancellation stays visible",
+      "pass": true
+    },
+    {
+      "name": "Native modal stays visible",
+      "pass": true
+    },
+    {
+      "name": "Scroll-locked page stays intact",
+      "pass": true
+    },
+    {
+      "name": "Inert page stays intact",
+      "pass": true
+    },
+    {
+      "name": "Undismissible promotion stays visible",
+      "pass": true
+    },
+    {
+      "name": "Focused email field stays visible",
+      "pass": true
+    },
+    {
+      "name": "Delayed popup is hidden",
+      "pass": true
+    },
+    {
+      "name": "Disabling promotion hiding restores original inline display",
+      "pass": true
+    },
+    {
+      "name": "Site pause stops promotional hiding",
+      "pass": true
+    },
+    {
+      "name": "Pausing an open page restores hidden promotion",
+      "pass": true
+    },
+    {
+      "name": "Global disable stops promotional hiding",
+      "pass": true
+    },
+    {
+      "name": "Hiding works with all automatic cookie clicks disabled",
+      "pass": true
+    },
+    {
+      "name": "Quince exact vendor frame hidden without clicks",
+      "pass": true
+    },
+    {
+      "name": "Quince automatic frame focus does not prevent hiding",
+      "pass": true
+    },
+    {
+      "name": "Quince trusted interaction preserves focused signup frame",
+      "pass": true
+    },
+    {
+      "name": "Quince lookalike hostname remains untouched",
+      "pass": true
+    },
+    {
+      "name": "Quince lookalike vendor URL remains untouched",
+      "pass": true
+    },
+    {
+      "name": "Quince unexpected lock state remains untouched",
+      "pass": true
+    },
+    {
+      "name": "Quince pause restores iframe and original scroll lock",
+      "pass": true
+    },
+    {
+      "name": "Independent popup controls reflect and save settings",
+      "pass": true
+    }
+  ]
+}

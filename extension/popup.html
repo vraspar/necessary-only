@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Necessary Only</title><link rel="stylesheet" href="popup.css"></head>
+<body>
+  <p class="eyebrow">LOCAL · NO TELEMETRY</p>
+  <h1>Necessary Only</h1>
+  <p>Fewer interruptions. Your choices stay on this device.</p>
+  <label class="row"><span>Enabled</span><input id="enabled" type="checkbox" disabled></label>
+  <label class="row"><span>Reject optional cookies</span><input id="rejectCookies" type="checkbox" disabled></label>
+  <label class="row"><span>Hide signup promotions</span><input id="hidePromotions" type="checkbox" disabled></label>
+  <label class="row"><span>Pause on this site</span><input id="paused" type="checkbox" disabled></label>
+  <p id="site" class="site">Loading…</p>
+  <p class="note">Promotions are hidden without clicking. Switch hiding off to restore them. Cookie rejection clicks a website button; only enable it on sites you trust.</p>
+  <p id="status" role="status"></p>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+:root { color-scheme: light dark; font: 14px/1.5 system-ui, sans-serif; }
+body { width: 292px; margin: 0; padding: 24px; background: light-dark(#faf9f5, #1b211f); color: light-dark(#173e33, #e0eee7); }
+h1 { font-size: 25px; line-height: 1.1; letter-spacing: -.8px; margin: 10px 0 14px; }
+p { margin: 10px 0 18px; }
+.eyebrow { font-size: 10px; font-weight: 700; letter-spacing: 1.3px; opacity: .75; }
+.row { display: flex; align-items: center; justify-content: space-between; padding: 14px 0; border-bottom: 1px solid light-dark(#d9dfda, #3d4d44); cursor: pointer; }
+input { accent-color: #28715b; width: 18px; height: 18px; cursor: pointer; }
+input:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+.site { overflow-wrap: anywhere; font-size: 12px; }
+.note { font-size: 12px; opacity: .8; margin-bottom: 0; }
+#status { margin-bottom: 0; font-size: 12px; }

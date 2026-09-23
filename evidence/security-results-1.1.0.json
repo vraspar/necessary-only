@@ -1,0 +1,64 @@
+{
+  "browser": "153.0.8010.53",
+  "extensionVersion": "1.1.0",
+  "at": "2026-09-23T21:50:20.645Z",
+  "notes": "Synthetic isolated adversarial fixtures only. All fake attacker traffic intercepted locally; no real secrets or users. Findings are observations, not a pass label.",
+  "results": [
+    {
+      "name": "Fake cookie banner can trigger page-owned data transmission",
+      "requests": [
+        "https://attacker-fixture.test/collect?data=SYNTHETIC_TEST_VALUE"
+      ],
+      "clicked": true
+    },
+    {
+      "name": "Main-world prototype override cannot replace extension click implementation",
+      "requests": [],
+      "mainWorldOverrideRan": false,
+      "handlerRan": true
+    },
+    {
+      "name": "External anchor wrapper in light DOM is skipped",
+      "requests": [],
+      "url": "https://malicious-fixture.test/2"
+    },
+    {
+      "name": "External anchor wrapper across shadow boundary",
+      "requests": [],
+      "url": "https://malicious-fixture.test/3"
+    },
+    {
+      "name": "External anchor wrapper through a shadow slot",
+      "requests": [],
+      "url": "https://malicious-fixture.test/4"
+    },
+    {
+      "name": "Conflicting aria-labelledby accessible name",
+      "requests": [],
+      "clicked": false
+    },
+    {
+      "name": "Offscreen fake banner",
+      "requests": [],
+      "clicked": false
+    },
+    {
+      "name": "Overlay-obscured fake banner",
+      "requests": [],
+      "clicked": false
+    },
+    {
+      "name": "Forged postMessage cannot enable automation",
+      "requests": [],
+      "clicked": false,
+      "settings": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "Web page cannot invoke private extension message handler",
+      "requests": [],
+      "result": "Cannot read properties of undefined (reading 'sendMessage')"
+    }
+  ]
+}
