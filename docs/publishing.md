@@ -1,6 +1,6 @@
 # Publishing status and preparation
 
-This repository is private and the extension is currently installed through Chrome's **Load unpacked** flow. Nothing has been submitted to the Chrome Web Store.
+This repository is public and the extension is currently installed through Chrome's **Load unpacked** flow. Nothing has been submitted to the Chrome Web Store.
 
 Google requires a publisher account with a one-time registration fee, two-step verification, a verified contact email, and store listing/privacy information. The current published registration fee is US$5. An unlisted listing is installable by anyone with its link and is still reviewed; it is not the same as a private listing. Review commonly takes days and may take weeks.
 

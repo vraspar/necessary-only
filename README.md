@@ -73,4 +73,4 @@ Chrome's official installation instructions: https://developer.chrome.com/docs/e
 - [Observed live results](docs/validation.md)
 - [Store preparation](docs/publishing.md)
 
-Build a deterministic local-install ZIP with `python3 scripts/package.py`. Only `extension/` is packaged. No code bundling or dependency installation is needed. The repository is private; no distribution license has been chosen yet.
+Build a deterministic local-install ZIP with `python3 scripts/package.py`. Only `extension/` is packaged. No code bundling or dependency installation is needed. The repository is public; no distribution license has been chosen yet.
